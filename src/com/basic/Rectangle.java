@@ -38,6 +38,7 @@ public class Rectangle {
 		r1.setWidth(15.0);
 		System.out.println(r1.findArea());
 		System.out.println(r1.findArea());
+		
 	}
 	
 
