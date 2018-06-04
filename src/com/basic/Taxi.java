@@ -11,8 +11,8 @@ public class Taxi extends Car {
 		System.out.println("Inheritance with single args " +i);
 	}
 	  public static void main(String args[]) {
-	  Taxi taxi2=new Taxi();
-	  Taxi taxi1=new Taxi(100);
+	  Taxi taxi1=new Taxi();
+	  Taxi taxi=new Taxi(100);
 	
   }
 }
