@@ -5,10 +5,15 @@ public class Test {
 	
 		Test tc=new Test();
 		PoliceCar pc=new PoliceCar();
+		SportsCar sc=new SportsCar();
+		BmwCar bc=new BmwCar();
+	
 		
 		
 		
 		tc.brake(pc);
+		tc.brake(sc);
+		tc.brake(bc);
 		
 		
 	
@@ -18,9 +23,9 @@ public class Test {
 	}
 	
 	
-	public void brake(Vechicle vecone  ) 
+	public void brake(Vechicle vecone)  
 	{
-			System.out.println("TEST CAR");
+			vecone.brake();
 	}
 
 
