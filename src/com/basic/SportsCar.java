@@ -20,11 +20,11 @@ public class SportsCar extends Vechicle {
 		
 	}
 	@Override
-		public void brake()
-		{
-			System.out.println("Sportscar brake applied");
-			
-		}
+	public void brake()
+	{
+		System.out.println("Sports brake applied");
+	
+	}
 	
 	public static void main(String[] args) {
 		
