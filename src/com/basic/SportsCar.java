@@ -30,6 +30,8 @@ public class SportsCar extends Vechicle {
 		
 		SportsCar sportpro=new SportsCar();
 		sportpro.brake();
+		SportsCar sc=new SportsCar();
+		sc.brake();
 
 		
 	}

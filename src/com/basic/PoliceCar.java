@@ -8,5 +8,7 @@ public class PoliceCar extends Vechicle {
 	}
 public static void main(String[] args) {
 	
+
+	
 }
 }

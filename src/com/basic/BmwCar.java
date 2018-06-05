@@ -9,7 +9,8 @@ public void brake( )
 	public static void main(String[] args) {
 		
 		
-	
+		BmwCar bc=new BmwCar();
+		bc.brake();
 	
 	}
 	

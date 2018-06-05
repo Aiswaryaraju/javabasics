@@ -2,7 +2,7 @@ package com.basic;
 
 public class Vechicle { 
 	String name="BMW";
-	static int i=45;
+	 int i=45;
 	double modelnumber=45.00;
 	public Vechicle()
     {
@@ -11,7 +11,7 @@ public class Vechicle {
 	protected Vechicle(int i)
 	{
 		this();
-		Vechicle.i=i;
+		this.i=i;
 	
 	System.out.println("One args");
 	}
