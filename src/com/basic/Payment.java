@@ -122,7 +122,7 @@ public class Payment {
 			Payment.setCommision(9);
 			payment1.calculatePayment(5000);
 			payment1.setRange( salary);
-			//payment1.setRange(salary);
+			
 	}
 		}
 
