@@ -1,4 +1,5 @@
 package com.basic;
+import com.iet.org.*;
 
 public class Add {
 
@@ -9,7 +10,8 @@ public class Add {
 		byte A   = 100;
 		byte B   = 20;
 		byte three = (byte)(A + B ); 
-		System.out.println(three);
+		System.out.println(three);Car c2=new Car(100,"BMW");
+		Student student1=new Student();
 		}
 		
 
