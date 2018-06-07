@@ -4,7 +4,8 @@ public abstract class Place implements Tour {
 	
 
 }
-class Ooty extends Place {
+class Ooty extends Place 
+{
 
 public void getAmount()
 {
